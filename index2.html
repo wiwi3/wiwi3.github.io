@@ -9,24 +9,24 @@
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
+            height: 100%;
+            width: 100%;
         }
         .hero {
-            background-image: url('your-background-image-url.jpg'); /* Replace with your image */
-            height: 100vh;
+            background-image: url('hero.webp'); /* Replace with the correct image URL */
+            height: 50vh;
             background-size: cover;
             background-position: center;
-            position: relative;
             color: white;
             text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         .hero h1 {
-            margin: 0;
-            padding: 0;
             font-size: 3rem;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.5); /* Adds a dark overlay for better readability */
+            padding: 20px;
         }
         .services {
             padding: 50px;
@@ -77,7 +77,7 @@
 
     <div class="contact">
         <h2>Contact Us</h2>
-        <p>For inquiries, reach out at: <a href="mailto:contact@eforcreative.com">contact@eforcreative.com</a></p>
+        <p>For inquiries, reach out at: <a href="mailto:info@eforcreative.com">info@eforcreative.com</a></p>
     </div>
 
 </body>
