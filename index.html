@@ -3,44 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="IT Consulting Service, specialized in mobile solutions">
     <title>EforCreative Solutions Inc.</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        body, html {
             margin: 0;
             padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+            width: 100%;
+        }
+        .hero {
+            background-image: url('hero.webp'); /* Replace with the correct image URL */
+            height: 50vh;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            background-color: #f0f0f0;
         }
-        .container {
-            text-align: center;
-            background-color: #fff;
+        .hero h1 {
+            font-size: 3rem;
+            background-color: rgba(0, 0, 0, 0.5); /* Adds a dark overlay for better readability */
             padding: 20px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            border-radius: 8px;
         }
-        h1 {
-            color: #333;
+        .services {
+            padding: 50px;
+            text-align: center;
         }
-        p {
-            color: #555;
+        .services h2 {
+            margin-bottom: 20px;
+        }
+        .services ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .services li {
+            margin: 10px 0;
+        }
+        .contact {
+            padding: 50px;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .contact h2 {
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
+
+    <div class="hero">
         <h1>EforCreative Solutions Inc.</h1>
-        <p><strong>IT Consulting Service</strong>, specialized in:</p>
-        <ul>
-            <li>Mobile Solutions</li>
-            <li>App Development</li>
-            <li>Custom Software Solutions</li>
-        </ul>
-        <p>Contact us for more information.</p>
     </div>
+
+    <div class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Mobile Enterprise Solutions</li>
+            <li>Mobile Application Development</li>
+            <li>Mobile Strategy Consulting</li>
+            <li>Cross-Platform App Development</li>
+            <li>Enterprise Integration Solutions</li>
+            <li>UX/UI Design for Mobile Apps</li>
+            <li>Backend API Development</li>
+            <li>Mobile App Maintenance & Support</li>
+            <li>Custom Mobile Solutions</li>
+            <li>Cloud Integration for Mobile Apps</li>
+            <li>Mobile Security and Compliance</li>
+        </ul>
+    </div>
+
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p>For inquiries, reach out at: <a href="mailto:info@eforcreative.com">info@eforcreative.com</a></p>
+    </div>
+
 </body>
 </html>
